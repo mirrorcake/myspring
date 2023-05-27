@@ -8,6 +8,11 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 
+/**
+ *  resolve property for @Value
+ *
+ * @author mirrorcake
+ */
 public class PropertyResolver {
 
     private final Logger logger = LoggerFactory.getLogger(PropertyResolver.class);

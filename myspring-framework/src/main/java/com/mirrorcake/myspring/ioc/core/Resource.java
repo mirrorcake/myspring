@@ -1,6 +1,11 @@
 package com.mirrorcake.myspring.ioc.core;
 
 
+/**
+ *  resource
+ *
+ * @author mirrorcake
+ */
 public class Resource {
     private String path;
     private String name;

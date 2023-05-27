@@ -3,16 +3,21 @@ package com.mirrorcake.myspring.ioc.annotation;
 import java.lang.annotation.*;
 
 /**
- * to mark a bean to be instantiated
+ * instantiate a bean explicitly
  *
  * @author mirrorcake
  */
+@Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)
 @Documented
-public @interface Component {
+public @interface Bean {
+
     /**
      * bean name
      */
     String value() default "";
+
+    String initMethod() default "";
+
+    String destroyMethod() default "";
 }

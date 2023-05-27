@@ -21,7 +21,7 @@ import java.util.List;
  *  resolve resources in some path
  *
  * @author mirrorcake
- * */
+ */
 public class ResourceResolver {
     private final Logger logger = LoggerFactory.getLogger(ResourceResolver.class);
 
