@@ -1,4 +1,4 @@
-package com.mirrorcake.core;
+package com.mirrorcake.myspring.ioc.core;
 
 
 public class Resource {

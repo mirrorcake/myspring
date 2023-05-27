@@ -1,6 +1,6 @@
 package com.mirrorcake;
 
-import com.mirrorcake.annotation.ComponentScan;
+import com.mirrorcake.myspring.ioc.annotation.ComponentScan;
 
 /**
  * xxx

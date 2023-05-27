@@ -1,6 +1,6 @@
 package com.mirrorcake.service;
 
-import com.mirrorcake.annotation.Component;
+import com.mirrorcake.myspring.ioc.annotation.Component;
 
 @Component
 public class UserService {

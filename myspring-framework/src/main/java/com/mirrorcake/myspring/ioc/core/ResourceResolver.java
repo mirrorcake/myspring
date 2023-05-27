@@ -1,11 +1,9 @@
-package com.mirrorcake.core;
+package com.mirrorcake.myspring.ioc.core;
 
 
-import com.sun.deploy.config.MacOSXPlatform;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.File;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;

@@ -1,4 +1,4 @@
-package com.mirrorcake.annotation;
+package com.mirrorcake.myspring.ioc.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -6,13 +6,13 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * component 注解 标记一个需要实例化的bean
+ * ComponentScan 注解，指定bean扫描路径
  *
  * @author https://github.com/mirrorcake
- * @date 2022/11/5 12:53
+ * @date 2022/11/5 12:51
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface Component {
+public @interface ComponentScan {
     String value() default "";
 }
