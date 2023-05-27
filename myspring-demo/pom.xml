@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.mirrorcake</groupId>
-            <artifactId>myspring-impl</artifactId>
+            <artifactId>myspring-framework</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

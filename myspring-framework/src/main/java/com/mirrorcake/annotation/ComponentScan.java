@@ -6,13 +6,13 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * xxx
+ * ComponentScan 注解，指定bean扫描路径
  *
  * @author https://github.com/mirrorcake
- * @date 2022/11/5 12:53
+ * @date 2022/11/5 12:51
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface Component {
+public @interface ComponentScan {
     String value() default "";
 }

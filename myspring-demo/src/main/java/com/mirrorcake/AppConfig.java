@@ -8,6 +8,7 @@ import com.mirrorcake.annotation.ComponentScan;
  * @author https://github.com/mirrorcake
  * @date 2022/11/5 12:56
  */
-@ComponentScan
+@ComponentScan("com.mirrorcake.service")
 public class AppConfig {
+
 }
